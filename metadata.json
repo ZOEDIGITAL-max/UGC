@@ -1,0 +1,6 @@
+{
+  "name": "Fowotade Oyindamola — Luxury AI Creative Studio",
+  "description": "Luxury AI creative studio specializing in AI UGC, cinematic product commercials, brand storytelling, and synthetic high-fashion films.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

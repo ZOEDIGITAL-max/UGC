@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Bodoni Moda", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-primary: #000000;
+  --color-secondary: #745a36;
+  --color-secondary-dim: #e4c196;
+  --color-secondary-fixed: #ffddb5;
+  --color-surface: #fcf9f3;
+  --color-surface-container: #f0eee8;
+  --color-surface-container-low: #f6f3ed;
+  --color-surface-container-high: #ebe8e2;
+  --color-surface-container-highest: #e5e2dc;
+  --color-outline-variant: #c4c7c7;
+  --color-on-surface: #1c1c18;
+  --color-on-surface-variant: #444748;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+.font-headline {
+  font-family: var(--font-headline);
+}
+
+.film-grain {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 0);
+  background-size: 4px 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c4c7c7;
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
